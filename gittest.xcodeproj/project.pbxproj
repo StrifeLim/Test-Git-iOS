@@ -21,6 +21,7 @@
 		68145A1219BA20A0001A610D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681459F419BA20A0001A610D /* UIKit.framework */; };
 		68145A1A19BA20A0001A610D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68145A1819BA20A0001A610D /* InfoPlist.strings */; };
 		68145A1C19BA20A0001A610D /* gittestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68145A1B19BA20A0001A610D /* gittestTests.m */; };
+		68145A2719BA2579001A610D /* SSTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 68145A2619BA2579001A610D /* SSTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		68145A1719BA20A0001A610D /* gittestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gittestTests-Info.plist"; sourceTree = "<group>"; };
 		68145A1919BA20A0001A610D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		68145A1B19BA20A0001A610D /* gittestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gittestTests.m; sourceTree = "<group>"; };
+		68145A2519BA2579001A610D /* SSTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTest.h; sourceTree = "<group>"; };
+		68145A2619BA2579001A610D /* SSTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		681459E419BA209F001A610D = {
 			isa = PBXGroup;
 			children = (
+				68145A2519BA2579001A610D /* SSTest.h */,
+				68145A2619BA2579001A610D /* SSTest.m */,
 				681459F619BA20A0001A610D /* gittest */,
 				68145A1519BA20A0001A610D /* gittestTests */,
 				681459EF19BA20A0001A610D /* Frameworks */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68145A0719BA20A0001A610D /* SSViewController.m in Sources */,
+				68145A2719BA2579001A610D /* SSTest.m in Sources */,
 				68145A0119BA20A0001A610D /* SSAppDelegate.m in Sources */,
 				681459FD19BA20A0001A610D /* main.m in Sources */,
 			);
